@@ -14,11 +14,16 @@ npm start
 
 ## Usage
 
+### in-browser (from localhost or wherever you host your SaaS-instance)
 ```
 await fetch("/doh")
 .then(response=>response.json()
 .then(data=>data))
 ```
+
+### CLI
+
+``` curl localhost:742/doh ```
 
 will return 
 
